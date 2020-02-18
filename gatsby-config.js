@@ -3,7 +3,29 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+const dotenv = require('dotenv');
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config()
+}
+
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Keisha Matthews - Software Developer',
+    author: 'Keisha Matthews',
+    description: 'Keisha Matthews is a software developer based in Nashville, specializing in full-stack development. Keisha is a lover of all things tech and true crime.'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet',
+
+    {
+      resolve:'gatsby-source-contentful',
+      options: {
+        spaceId: '06rxmiq07gvg',
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      },
+    },
+    '@contentful/rich-text-react-renderer'
+  ]
 }

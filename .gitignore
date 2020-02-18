@@ -52,11 +52,13 @@ typings/
 *.tgz
 
 # dotenv environment variable files
-.env*
+.env
 
 # gatsby files
 .cache/
 public
+public/page-data
+public/about
 
 # Mac files
 .DS_Store
@@ -67,3 +69,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+### Node config ###
+.npmrc

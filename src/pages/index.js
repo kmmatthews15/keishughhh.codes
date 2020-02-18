@@ -6,7 +6,7 @@ import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import '../styles/index.css'
 import landingStyles from '../styles/landing.module.css'
-import portrait from '../images/me.png'
+import logo from '../images/keishughhh-codes.png'
 
 const IndexPage = () => {
    return (
@@ -19,9 +19,9 @@ const IndexPage = () => {
        <Layout>
          <div className="index-container">
            <h1 className={landingStyles.hello}>Hi, I'm Keisha Matthews.</h1>
-           <h2 className={landingStyles.info}>I'm currently a software developer in Nashville. When I'm not coding, I'm creating content, exploring the city, and discovering new technologies.</h2>
+           <h2 className={landingStyles.info}>Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and exploring true crime documentaries.</h2>
            <div className={landingStyles.surroundingDiv}>
-             <img className={landingStyles.me} src={portrait} alt="Keisha"></img>
+             <img className={landingStyles.me} src={logo} alt="Keisha"></img>
            </div>
          </div>
          <div className={landingStyles.contactInfo}>

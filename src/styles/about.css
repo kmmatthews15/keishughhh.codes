@@ -1,0 +1,88 @@
+.about-link {
+   text-decoration: none;
+}
+
+.about-container {
+   margin: 0 auto;
+   position: absolute;
+   left: 10%;
+   right: 10%;
+   top: 20%;
+   margin-bottom: 200px;
+}
+
+.inner-about-container {
+   line-height: 1.6;
+   margin-bottom: 50px;
+}
+
+.inner-about-header {
+   font-size: 34px;
+   margin-bottom: 0;
+}
+
+.inner-about-description {
+   width: 65%;
+}
+
+.inner-about-contact {
+   padding-right: 15px;
+   font-size: 20px;
+   color: #ffffff;
+ }
+ 
+ .keisha-headshot {
+   position: absolute;
+   top: 20px;
+   right: 5.5%;
+   width: 280px;
+ }
+ 
+ .course-link {
+   text-decoration: none;
+ }
+ 
+ .skills-container {
+   display: flex;
+   flex-direction: row;
+   align-content: space-evenly;
+ }
+ 
+ .skills-column {
+   width: 25%;
+ }
+ 
+ .skills-column li {
+   font-size: 16px;
+   padding: 10px;
+   font-weight: 600;
+ }
+ 
+ @media (max-width: 1000px) {
+   .about-container {
+     margin-bottom: 30px;
+   }
+ 
+   .inner-about-header {
+     font-size: 18px;
+   }
+ 
+   .inner-about-description {
+     font-size: 10px;
+     width: 90%;
+   }
+ 
+   .skills-container {
+     margin-top: 10px;
+   }
+ 
+   .skills-column li {
+     font-size: 8px;
+   }
+ }
+ 
+ @media (max-width: 1300px) {
+   .keisha-headshot {
+     display: none;
+   }
+ }

@@ -12,13 +12,12 @@ const Contact = () => {
       <div>
          <Layout>
             <div className="container">
-               <div className="left">
-                  <img src={reachOut} className="arms" alt="pic"></img>
+               <div className="contact-left">
+                  <img src={reachOut} className="reachout" alt="pic"></img>
                </div>
                <div className="contact-right">
                   <p className="connect-header">Let's connect!</p>
-                  <p className="connect-info">If you'd like to stay connected, join our <b><a href="https://join.slack.com/t/social-coders/shared_invite/enQtODc1NDM3NTYyNjU4LWU2MzJmOGE0Y2U2NDgyMTc4ZTQxYzJlNjM4MmJiZWU3Zjk1NmZiZTYyNTY1NTQxYTk3ZmEyNTI0YTVjNDRkNmU" className="about-link" target="_blank" rel="noopener noreferrer">Social Coders</a></b> Slack community! I created this workspace for anyone in the tech community to have discussions & get to know each other.
-                    Come hangout!
+                  <p className="connect-info"> Feel free to stop by and have a chat at any of the social links below!
             </p>
                   <div>
                      <a href="https://www.linkedin.com/in/keisha-matthews-794a55189" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="inner-about-contact" /></a>

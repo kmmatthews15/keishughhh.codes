@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import headerStyles from '.../styles/header.module.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import headerStyles from '../styles/header-module.css'
 import NavigationButton from './navigationButton'
 import NavigationMenu from './navigationMenu'
 
@@ -31,9 +30,7 @@ class Header extends Component {
       return (
          <div className="navigation-bar-container">
             <NavigationMenu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
-            <Link className={headerStyles.logoLink}to="/">
-               <FontAwesomeIcon icon="home" />
-            </Link>
+            <Link className={headerStyles.logoLink} to="/" id="logoLink">:</Link>
             <NavigationButton handleMouseDown={this.handleMouseDown} />
             <div id="theMenu"></div>
          </div>

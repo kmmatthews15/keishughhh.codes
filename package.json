@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.8",
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
     "gatsby": "^2.19.7",
     "gatsby-plugin-feed": "^2.3.27",
     "gatsby-plugin-google-analytics": "^2.1.35",

@@ -13,7 +13,7 @@ const IndexPage = () => {
      <div>
        <Helmet>
        <meta charSet="utf=8" />
-            <title>About Keisha Matthews</title>
+            <title>Keisha Matthews</title>
             <meta name="description" content="About Keisha - Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and true crime documentaries." />
        </Helmet>
        <Layout>

@@ -14,12 +14,12 @@ const IndexPage = () => {
        <Helmet>
        <meta charSet="utf=8" />
             <title>About Keisha Matthews</title>
-            <meta name="description" content="About Keisha - Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and exploring true crime documentaries." />
+            <meta name="description" content="About Keisha - Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and true crime documentaries." />
        </Helmet>
        <Layout>
          <div className="index-container">
            <h1 className={landingStyles.hello}>Hi, I'm Keisha Matthews.</h1>
-           <h2 className={landingStyles.info}>Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and exploring true crime documentaries.</h2>
+           <h2 className={landingStyles.info}>Keisha is a software developer and designer based in Nashville, TN. When Keisha's not coding, she's exploring new technologies and true crime documentaries.</h2>
            <div className={landingStyles.surroundingDiv}>
              <img className={landingStyles.me} src={logo} alt="Keisha"></img>
            </div>

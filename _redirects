@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://goofy-mirzakhani-3dcb5c.netlify.com/* http://keishughhhcodes.com/:splat 301!

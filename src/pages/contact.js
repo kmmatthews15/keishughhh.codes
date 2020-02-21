@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import '../styles/contact.css'
 import '../styles/projects.css'
+import reachOut from '../images/reach-out.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
@@ -13,6 +14,7 @@ const Contact = () => {
          <Layout>
             <div className="container">
                <div className="contact-left">
+                  <img src={reachOut} className="reachout" alt="pic"></img>
                </div>
                <div className="contact-right">
                   <p className="connect-header">Let's connect!!</p>

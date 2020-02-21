@@ -12,9 +12,9 @@ const Contact = () => {
    return (
       <div>
          <Layout>
-            <div className="container">
+            <div className="contact-container">
                <div className="contact-left">
-                  <img src={reachOut} className="reachout" alt="pic"></img>
+                  <img src={reachOut} className="reach-out" alt="pic"></img>
                </div>
                <div className="contact-right">
                   <p className="connect-header">Let's connect!!</p>

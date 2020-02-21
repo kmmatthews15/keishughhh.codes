@@ -19,6 +19,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "babel-plugin-styled-components": "^1.10.7",
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
     "env-cmd": "^10.1.0",
@@ -27,11 +28,13 @@
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sass": "^2.1.28",
+    "gatsby-plugin-styled-components": "^3.1.19",
     "gatsby-source-contentful": "^2.1.86",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

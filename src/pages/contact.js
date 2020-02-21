@@ -16,7 +16,7 @@ const Contact = () => {
                   <img src={reachOut} className="reachout" alt="pic"></img>
                </div>
                <div className="contact-right">
-                  <p className="connect-header">Let's connect!</p>
+                  <p className="connect-header">Let's connect!!</p>
                   <p className="connect-info"> Feel free to stop by and have a chat at any of the social links below!
             </p>
                   <div>

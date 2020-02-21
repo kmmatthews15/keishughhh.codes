@@ -1,2 +1,2 @@
 // gatsby-browser.js
-require('../src/styles/contact.css')
+require('./my-global-styles.css')

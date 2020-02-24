@@ -19,7 +19,7 @@ module.exports = {
     description: 'Keisha Matthews is a software developer based in Nashville, specializing in full-stack development. Keisha is a lover of all things tech and true crime.'
   },
   plugins: [
-    'gatsby-plugin-sass',
+    'gatsby-plugin-material-ui',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {

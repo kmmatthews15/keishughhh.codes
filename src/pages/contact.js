@@ -17,13 +17,16 @@ const Socials = styled.div`
    margin-left: 290px;
    float: left;
    height: 100%;
-   @media (max-width: 1400px) {
+   @media only screen and (max-width: 1400px) {
       margin-left: 350px;
    }
-   @media (max-width: 1300px) {
+   @media only screen and (max-width: 1300px) {
       margin-left: 290px;
    }
-   @media (max-width: 1000px) {
+   @media only screen and (max-width: 1000px) {
+      margin-left: 340px;
+   }
+   @media only screen and (max-width: 700px) {
       margin-left: 220px;
    }
 `
@@ -33,11 +36,11 @@ const Wrapper = styled.section`
    margin-left: 70px;
    float: left;
    height: 100%;
-   @media (max-width: 1400px) {
-      display: none;
-    }
    overflow: hidden;
    width: 45%;
+   @media only screen and (max-width: 1400px) {
+      display: none;
+    }
 `
 
 const Right = styled.section`
@@ -51,7 +54,7 @@ const Right = styled.section`
    border-left: 5px solid white;
    padding-left: 70px;
    margin-bottom: 0px;
-   @media (max-width: 1400px) {
+   @media only screen and (max-width: 1400px) {
      width: 100%;
      font-size: 14px;
      margin-right: 0px;

@@ -68,16 +68,16 @@
  
  @media (max-width: 1000px) and (min-width: 800px) {
    .hello {
-     padding-left: 40px;
+     padding-left: -5px;
    }
  
    .info {
-     padding-left: 40px;
+     padding-left: -5px;
      font-size: 20px;
    }
  
    .me {
-     margin-top: -120px;
+     margin-top: -40px;
    }
  }
  

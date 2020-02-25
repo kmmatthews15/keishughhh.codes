@@ -18,51 +18,28 @@ const Socials = styled.div`
    float: left;
    height: 100%;
    @media only screen and (max-width: 1400px) {
-      margin-left: 350px;
-   }
-   @media only screen and (max-width: 1300px) {
-      margin-left: 290px;
-   }
-   @media only screen and (max-width: 1000px) {
-      margin-left: 340px;
+      margin-left: 16rem;
    }
    @media only screen and (max-width: 700px) {
-      margin-left: 220px;
+      margin-left: 9rem;
    }
 `
 
 const Wrapper = styled.section`
-   margin-top: 8rem;
-   margin-left: 70px;
+   margin-top: 15rem;
+   margin-left: 26rem;
    float: left;
    height: 100%;
    overflow: hidden;
    width: 45%;
    @media only screen and (max-width: 1400px) {
-      display: none;
+      margin-left: 5rem;
+      width: 77%;
     }
-`
-
-const Right = styled.section`
-   padding-top: 20rem;
-   margin-right: 150px;
-   text-align: center;
-   float: right;
-   margin-top: 6%;
-   width: 35%;
-   font-size: 18px;
-   border-left: 5px solid white;
-   padding-left: 70px;
-   margin-bottom: 0px;
-   @media only screen and (max-width: 1400px) {
-     width: 100%;
-     font-size: 14px;
-     margin-right: 0px;
-     border: none;
-     margin-bottom: 50px;
-     padding-top: 10vw;
-     margin-top: 20%;
-    }
+   @media only screen and (max-width: 600px) {
+      margin-left: 5rem;
+      width: 77%;
+   }
 `
 
 const Header = styled.p`
@@ -85,22 +62,19 @@ class ContactPage extends React.Component {
          <div>
          <Layout>
             <Container>
-               <Wrapper>
-                  <img src={reachOut} className="reach-out" alt="pic"></img>
-               </Wrapper>
-            </Container>
-            <Right>
+            <Wrapper>
                <Header>Let's Connect</Header>
                <Info>Feel free to stop by anf have a chat at any of the social
                   links below!
                </Info>
-            </Right>
             <Socials>
             <a href="https://www.linkedin.com/in/keisha-matthews-794a55189" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="inner-about-contact" /></a>
             <a href="https://www.github.com/kmmatthews15" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="inner-about-contact" /></a>
             <a href="https://www.instagram.com/keishughhh.codes" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} className="inner-about-contact" /></a>
             <a href="mailto:keishughhhcodes@gmail.com?subject=Keisha Inquiry"><FontAwesomeIcon icon={faEnvelopeSquare} className="inner-about-contact" /></a>
             </Socials>
+            </Wrapper>
+            </Container>
          </Layout>
       </div>
       )

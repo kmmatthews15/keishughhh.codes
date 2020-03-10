@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import styled from 'styled-components';
-import reachOut from '../images/reach-out.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'

@@ -13,11 +13,11 @@ const Container = styled.div`
 
 const Socials = styled.div` 
    margin-top: 2rem;
-   margin-left: 290px;
+   margin-left: 13rem;
    float: left;
    height: 100%;
    @media only screen and (max-width: 1400px) {
-      margin-left: 16rem;
+      margin-left: 11rem;
    }
    @media only screen and (max-width: 700px) {
       margin-left: 9rem;
@@ -63,15 +63,15 @@ class ContactPage extends React.Component {
             <Container>
             <Wrapper>
                <Header>Let's Connect</Header>
-               <Info>Feel free to stop by anf have a chat at any of the social
+               <Info>Feel free to stop by and have a chat at any of the social
                   links below!
-               </Info>
             <Socials>
             <a href="https://www.linkedin.com/in/keisha-matthews-794a55189" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="inner-about-contact" /></a>
             <a href="https://www.github.com/kmmatthews15" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="inner-about-contact" /></a>
             <a href="https://www.instagram.com/keishughhh.codes" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} className="inner-about-contact" /></a>
             <a href="mailto:keishughhhcodes@gmail.com?subject=Keisha Inquiry"><FontAwesomeIcon icon={faEnvelopeSquare} className="inner-about-contact" /></a>
             </Socials>
+            </Info>
             </Wrapper>
             </Container>
          </Layout>
